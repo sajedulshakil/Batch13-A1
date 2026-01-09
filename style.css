@@ -219,3 +219,54 @@ margin-top: 30px;
     gap: 24px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
+
+#brain-section{
+    width: 1600px;
+    height: 840px;
+}
+
+.brain-container{
+    width: 1360px;
+    height: 600px;
+    padding: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.mark h4{
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.solution h4{
+    color: #469165;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+.solution h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.solution p{
+    color: #627382;
+    font-size: 16px;
+    padding-bottom: 40px;
+    line-height: 20px;
+}
+
+.mark .alam{
+    display: flex;
+    color: #001931;
+    gap: 6px;
+    font-size: 16px;
+    line-height: 20px;
+   vertical-align: middle;
+    padding-bottom: 16px;
+}
+
