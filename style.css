@@ -1,3 +1,158 @@
-body{
-    background-color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-class{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.main li {
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+
+
+.main a{
+    text-decoration: none;
+     color: #000000;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+  width: 1600px;
+  align-items: center;
+    margin: 0 auto;
+   padding: 16px 120px 16px 120px;
+  
+}
+
+
+.heading{
+    background-color: #FFFFFF;
+}
+
+.main{
+    display: flex;
+   padding-top: 34px;
+   padding-bottom: 34px;
+     font-size: 16px;
+   gap: 32px;
+   max-width: 365px;
+   font-weight: 500;
+}
+
+.container .btn{
+    height: 44px;
+    width: 164px;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+}
+
+#banner{
+    max-width: 1600px;
+   
+}
+
+
+#banner .banner-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 115px 120px 180px;
+   
+}
+
+
+.banner-container .section-heading a{
+    border: 2px solid rgb(131, 42, 42);
+    border-radius: 1000px;
+    padding: 8px 12px 8px 12px;
+    text-decoration: none;
+   
+    color: #469165;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-container .head{
+
+    border: none;
+    padding-top: 16px;
+font-size: 30px;
+font-weight: 700;
+   text-align: center;
+    font-style: bold;
+    margin: 0 auto;
+   
+   
+}
+
+.head .Structured{
+    color: #9e1919;
+}
+
+.head .not{
+    color: #30B868;
+}
+
+.banner-container p{
+   font-size: 18px;
+   font-weight: 400;
+    padding-top: 16px;
+    font-size: 18px;
+    line-height: 24px;
+ letter-spacing: 0%;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 32px;
+}
+
+.display .shakil {
+    padding: 16px;
+    color: #FFFFFF;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shakil img{
+   padding-left: 10px;
+   padding-right: 14apx;
+}
+
+.display .shakib{
+    padding: 16px;
+    color: #f7f4f4;
+   gap: 10px;
+    border: none;
+   border-radius: 4px;
+   background: none;
+   border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#banner{
+background-image: url(assets/hero-bg.png);
 }
