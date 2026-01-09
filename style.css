@@ -156,3 +156,66 @@ font-weight: 700;
 #banner{
 background-image: url(assets/hero-bg.png);
 }
+
+
+
+#heading-section{
+width: 1600px;
+height: 448px;
+margin-top: 30px;
+}
+
+
+
+
+.click h1{
+   font-size: 48px;
+   font-weight: bold;
+    text-align: center;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.click p{
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.card-title img{
+    background-color: #F95555;
+    border-radius: 1000px;
+    padding: 5px;
+    margin-bottom: 16px;
+  
+}
+
+.card-title h2{
+    font-size: 24px;
+    font-weight: 600;
+     margin-bottom: 16px;
+  
+}
+
+.card-title p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.info-card .card-title{
+    width: 322px;
+    height: 300px;
+    border: none;
+    text-align: center;
+    padding: 70px 24px 70px 24px;
+    align-items: center;
+}
+
+.info-card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
