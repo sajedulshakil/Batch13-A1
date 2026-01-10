@@ -93,6 +93,7 @@
     padding-top: 16px;
 font-size: 30px;
 font-weight: 700;
+
    text-align: center;
     font-style: bold;
     margin: 0 auto;
@@ -271,5 +272,105 @@ margin-top: 30px;
     padding-left: 0px;
     padding-right: 120px;
     
+}
+
+#elegent{
+    width: 1600px;
+    height: 506px;
+   
+}
+
+#elegent .elegent-heading{
+    width: 1360px;
+    height: 384px;
+    margin: 0px 120px 120px 120px;
+    text-align: center;
+  
+}
+
+.elegent-heading h1{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.elegent-heading h6{
+    color: #627382;
+   padding-top: 16px;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.elegent-heading .switch{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 24px;
+
+}
+
+
+
+.switch button{
+    gap: 10px;
+background-color: #30B868;
+color: rgba(255, 255, 255, 1);
+padding: 16px 10px 16px 16px;
+font-size: 16px;
+border-radius: 4px;
+border: none;
+padding-top: 16px;
+}
+
+.elegent-heading p{
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#footer-section{
+    width: 1600px;
+    height: 348px;
+    background-color: #001931;
+}
+
+.footer-class{
+    width: 1360px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+   margin-top: 120px;
+   margin-left: 120px;
+   margin-right: 120px;
+   margin-bottom: 80px;
+   padding-top: 120px;
+   padding-bottom: 80px;
+}
+
+.footer-class img{
+width: 139px;
+height: 60px;
+}
+
+.fix h4{
+    color: #f8f7f7;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.fix .image-icon i{
+    gap: 30px;
+  background-color: #FFFFFF;
+  border-radius: 1000px;
+}
+
+.last-work p{
+    color: #f8f7f7;
+    text-align: center;
+    padding-top: 30px;
 }
 
