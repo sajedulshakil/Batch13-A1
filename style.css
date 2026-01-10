@@ -358,7 +358,7 @@ height: 60px;
 
 .fix h4{
     color: #f8f7f7;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 28px;
 }
 
@@ -366,11 +366,29 @@ height: 60px;
     gap: 30px;
   background-color: #FFFFFF;
   border-radius: 1000px;
+  padding: 4.5px 4.5px;
+  align-items: center;
+ 
 }
 
 .last-work p{
     color: #f8f7f7;
     text-align: center;
     padding-top: 30px;
+}
+
+
+.btn:hover{
+    background-color: #9e1919;
+}
+
+.shakil:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.shakib:hover{
+     background-color: yellow;
+    color: black;
 }
 
